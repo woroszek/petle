@@ -5,7 +5,7 @@ licznik_paczek = 0
 taba= []
 
 for i in range(a):
-    waga_ost_elem = int(input(f'Jaka jest waga paczki nr. {i+1}? '))
+    waga_ost_elem = float(input(f'Jaka jest waga paczki nr. {i+1}? '))
     if waga_ost_elem > 10 or waga_ost_elem < 1:
         if waga_paczki > 0:
             licznik_paczek += 1
